@@ -1,0 +1,49 @@
+body {
+  margin: 0px;
+}
+.top-nav {
+    background-color: rgb(134, 157, 178);
+    overflow: hidden;
+    justify-content: space-between;
+}
+.top-nav h2 {
+  float: left;
+  color:#fff;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.top-nav a {
+    float: right;
+    color: #fff;
+    text-align: center;
+    margin: 5px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .top-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .top-nav a.current {
+    background-color: #ddd;
+    color: black;
+  }
+  .about-title {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+  }
+  .about-us {
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    color: rgb(120, 147, 227);
+  }
+  .about-us #prob {
+    float: left;
+  }
+  .about-us #sol {
+    float: right;
+  }
+  

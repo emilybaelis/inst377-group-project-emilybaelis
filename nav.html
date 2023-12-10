@@ -1,0 +1,26 @@
+<!--Top navigation bar information-->
+<html> 
+    <head>
+    <link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> <!--Jquery Library-->
+<script>
+    $(function(){
+    $('a').each(function() { //highlight page link in nav bar that is currently open
+        if ($(this).prop('href') == window.location.href) {
+        $(this).addClass('current');
+        }
+    });
+    });
+</script>
+</head>
+<body>
+    <div class="top-nav">
+        <h2 id="title">Adopt-A-Pet MD</h2>
+        <a href="contact.html" id="contact-nav">Contact</a>
+        <a href="about.html" id="about-nav">About Us</a>
+        <a href="home.html" id="home-nav">Home</a>
+</div>
+</body>
+</html>
+
+
