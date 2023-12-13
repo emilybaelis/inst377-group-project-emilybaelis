@@ -2,7 +2,7 @@ body {
   margin: 0px;
 }
 .top-nav {
-    background-color: rgb(134, 157, 178);
+    background-color: #e21833;
     overflow: hidden;
     justify-content: space-between;
 }
@@ -45,5 +45,72 @@ body {
   }
   .about-us #sol {
     float: right;
+  }
+  .search-bar {
+    text-align: center;
+    border-radius: 5px;
+    margin: 25px;
+    font-size: x-large;
+    background-color: #ffd200;
+    padding: 15px 2%;
+    margin-left: 12%;
+    width: 70%;
+  }
+  #animal {
+    width: 8%;
+    height: 30px;
+    margin-right: 30px;
+  }
+  #zipCode {
+    margin-right: 30px;
+  }
+  #range {
+    margin-right: 30px;
+  }
+  .search-bars {
+    height: 30px;
+  }
+  .index-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3% 7%;
+  }
+  .location-class {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    padding: 1%;
+    border-width: 5%;
+    border-style: solid;
+  }
+  .location-class a{
+    text-decoration: none;
+  }
+  .location-class:hover{
+    background-color: rgb(165, 165, 165);
+  }
+  .pet-info {
+    color: black;
+  }
+  .button-15 {
+    width: 80px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #454545;
+    background: #454545;
+  }
+  .button-15:hover {
+    background: #9c9999;
+    color: rgb(255, 255, 255)
   }
   
