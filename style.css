@@ -40,12 +40,7 @@ body {
     margin: auto;
     color: rgb(120, 147, 227);
   }
-  .about-us #prob {
-    float: left;
-  }
-  .about-us #sol {
-    float: right;
-  }
+  
   .search-bar {
     text-align: center;
     border-radius: 5px;
