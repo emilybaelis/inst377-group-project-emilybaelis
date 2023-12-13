@@ -1,22 +1,25 @@
-let zipCode = document.getElementById("zipCode")
-let range = document.getElementById("range")
-let petPhoto = document.getElementById("pet-photo")
-let animal = document.getElementById('animal')
+let zipCode = document.getElementById("zipCode");
+let range = document.getElementById("range");
+let petPhoto = document.getElementById("pet-photo");
+let animal = document.getElementById('animal');
 
 
 // add event listener for search button on click 
 document.getElementById('search-button').addEventListener('click', function(e) {
+  
   e.preventDefault();
-  fetch(`https://api-staging.adoptapet.com/search/pet_search?key=hg4nsv85lppeoqqixy3tnlt3k8lj6o0c&=3&output=json&species=${animal.value}&city_or_zip=${zipCode.value}&geo_range=${range.value}`) // first api call to get basic details of pets based on user input
+  // first api call to get basic details of pets based on user input
+  fetch(`https://api-staging.adoptapet.com/search/pet_search?key=hg4nsv85lppeoqqixy3tnlt3k8lj6o0c&=3&output=json&species=${animal.value}&city_or_zip=${zipCode.value}&geo_range=${range.value}`) 
   .then(response => response.json())
     .then(result => {
-      
-     
-    for(i=0;i<result.pets.length;i++) { // loop through results 
-      let img = document.createElement('img')
+    // loop through results   
+    for(i=0;i<result.pets.length;i++) { 
+
+      let img = document.createElement('img');
 
       let sex_text = '';
-      if (result.pets[i].sex == 'm') { // display sex of pet as either "male" or "female" instead of "m" or "f"
+      // display sex of pet as either "male" or "female" instead of "m" or "f"
+      if (result.pets[i].sex == 'm') { 
          sex_text = "male"
       }
       else if (result.pets[i].sex == 'f') {
@@ -35,10 +38,10 @@ document.getElementById('search-button').addEventListener('click', function(e) {
       img.src = result.pets[i].large_results_photo_url
 
         
-       let newInfo = document.createElement('p')
+      let newInfo = document.createElement('p')
 
-    
-    fetch(`https://api-staging.adoptapet.com/search/limited_pet_details?key=hg4nsv85lppeoqqixy3tnlt3k8lj6o0c&output=json&pet_id=${result.pets[i].pet_id}`) // second api call to get adoptapet.com url link for each pet using pet_id generated in first api call
+    // second api call to get adoptapet.com url link for each pet using pet_id generated in first api call
+    fetch(`https://api-staging.adoptapet.com/search/limited_pet_details?key=hg4nsv85lppeoqqixy3tnlt3k8lj6o0c&output=json&pet_id=${result.pets[i].pet_id}`) 
     .then(response => response.json())
     .then(result => {
       // using information from both api calls create information to display to the user
@@ -48,9 +51,13 @@ document.getElementById('search-button').addEventListener('click', function(e) {
       // create classes for elements to edit styles in style.css
       img.classList.add('img-class')
       newInfo.classList.add('location-class') 
+      
        })
     }
-   
+    //change page results after submitting form once
+    if (petPhoto.style.display != 'none') {
+    petPhoto.replaceChildren() 
+   }
     })
 
 })

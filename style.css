@@ -65,6 +65,10 @@ body {
   .search-bars {
     height: 30px;
   }
+  .search-input {
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
   .index-body {
     display: flex;
     flex-wrap: wrap;

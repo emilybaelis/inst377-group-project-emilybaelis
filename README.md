@@ -13,5 +13,5 @@
 ## Developer Manual
 - How to install your application and all dependencies
 - How to run your application on a server
-- We are using the Adopt-a-Pet.com Basic API, and one GET endpoint we are using is /search/pet_search. This endpoint returns a list of pets that match the search. The other GET endpoint we are using is /search/limited_pet_details. This endpoint provides a full list of details about the pet as well as a link to the animal's page on adoptapet.com which can provide the user more details about the aniaml.
+- We are using the Adopt-a-Pet.com Basic API, and one GET endpoint we are using is /search/pet_search. This endpoint returns a list of pets that match the search. The other GET endpoint we are using is /search/limited_pet_details. This endpoint provides a full list of details about the pet as well as a link to the animal's page on adoptapet.com which can provide the user with more details about the animal.
 - Not all animals have a photo associated with them. 
