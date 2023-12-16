@@ -12,7 +12,14 @@ body {
   margin-left: 10px;
   font-size: 20px;
 }
-.top-nav a {
+/*styling for adoptapet icon*/ 
+#icon {
+    float: left;
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+.nav-buttons {
     float: right;
     color: #fff;
     text-align: center;
@@ -20,14 +27,28 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: all 0.5s;
   }
-  .top-nav a:hover {
+  .nav-buttons:hover {
+    background-color: #ddd;
+    color: black;
+    transform: translateY(-3px)
+  }
+  .nav-buttons.current {
     background-color: #ddd;
     color: black;
   }
-  .top-nav a.current {
-    background-color: #ddd;
-    color: black;
+  #icon {
+    transition: all 0.5s;
+  }
+  #icon:hover {
+    transform: translateY(-3px)
+  }
+  #title {
+    transition: all 0.5s;
+  }
+  #title:hover {
+    color: black
   }
   .about-title {
     text-align: center;
@@ -83,6 +104,12 @@ body {
     padding: 1%;
     border-width: 5%;
     border-style: solid;
+    animation: dropIn 1s ease forwards;
+    transition: all 0.5s;
+  }
+  @keyframes dropIn {
+    from {transform: translateY(-1500px);}
+    to {transform: translateY(0);}
   }
   .location-class a{
     text-decoration: none;
@@ -107,9 +134,11 @@ body {
     border-radius: 5px;
     border: 2px solid #454545;
     background: #454545;
+    transition: all 0.5s;
   }
   .button-15:hover {
     background: #9c9999;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    transform: translateY(-3px)
   }
   
