@@ -108,8 +108,8 @@ body {
     transition: all 0.5s;
   }
   @keyframes dropIn {
-    from {transform: translateY(-1500px);}
-    to {transform: translateY(0);}
+    from {transform: translateY(-1500px); opacity: 0;}
+    to {transform: translateY(0); opacity: 1;}
   }
   .location-class a{
     text-decoration: none;
