@@ -1,5 +1,6 @@
 body {
   margin: 0px;
+  background-color: bisque;
 }
 .top-nav {
     background-color: #e21833;
@@ -50,11 +51,7 @@ body {
   #title:hover {
     color: black
   }
-  .about-title {
-    text-align: center;
-    color: black;
-    text-decoration: underline;
-  }
+  
   .about-us {
     justify-content: space-between;
     width: 50%;
