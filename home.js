@@ -8,6 +8,7 @@ let animal = document.getElementById('animal');
 document.getElementById('search-button').addEventListener('click', function(e) {
   
   e.preventDefault();
+  
   // first api call to get basic details of pets based on user input
   fetch(`https://api-staging.adoptapet.com/search/pet_search?key=hg4nsv85lppeoqqixy3tnlt3k8lj6o0c&=3&output=json&species=${animal.value}&city_or_zip=${zipCode.value}&geo_range=${range.value}`) 
   .then(response => response.json())

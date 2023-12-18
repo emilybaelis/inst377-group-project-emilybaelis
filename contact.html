@@ -1,16 +1,86 @@
 <html>
-    <head>
-        <title>Contact</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> <!--Jquery library-->
-        <script>
-            //load nav bar from nav.html
-            $(function(){
+
+<head>
+    <title>Adopt-A-Pet - Help and Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="contact.js"></script>
+    <script>
+        $(function () {
             $("#top-nav").load("nav.html");
-            });
-        </script>
-    </head>
-    <body>
-        <div id="top-nav"></div> <!--Placeholder for top nav bar-->
-    </body>
+        });
+    </script>
+</head>
+
+<body>
+    <div id="top-nav"></div>
+    <h1>Help and Contact</h1>
+    <hr><br>
+    <div class="layout-container">
+        <div class="faq">
+            <h2>FAQs</h2>
+            <hr>
+            <div class="question">
+                <h3>How do I start the adoption process?</h3>
+                <p class="answer" style="display:none;">
+                    You can start by filling out our online application form to
+                    express your interest in adopting a pet.
+                </p>
+            </div>
+            <div class="question">
+                <h3>What are the adoption fees?</h3>
+                <p class="answer" style="display:none;">
+                    Adoption fees vary depending on the pet's age, breed, and
+                    medical needs. Please contact us for more details.
+                </p>
+            </div>
+            <div class="question">
+                <h3>How long does the adoption process take?</h3>
+                <p class="answer" style="display:none;">
+                    The process can vary for each animal, but it typically
+                    takes one to two weeks from application to bringing your
+                    new pet home.
+                </p>
+            </div>
+            <div class="question">
+                <h3>What if I have other pets at home already?</h3>
+                <p class="answer" style="display:none;">
+                    We recommend a meet-and-greet with all household pets to
+                    ensure compatibility before finalizing the adoption.
+                </p>
+            </div>
+            <div class="question">
+                <h3>Are the pets vaccinated and spayed/neutered before
+                    adoption?</h3>
+                <p class="answer" style="display:none;">
+                    Yes, all our pets are vaccinated, spayed/neutered, and
+                    receive a health check before being available for adoption.
+                </p>
+            </div>
+        </div>
+
+        <div class="contact-button-container">
+            <button id="contactBtn" class="button-41">
+                Contact us now to get started!
+            </button>
+            <br><br>
+            <hr><br>
+            <div class="contact-form" id="contactForm" style="display:none;">
+                <form onsubmit="addCustomer(); return false;">
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                    <input type="email" id="email" name="email" placeholder="Your Email">
+                    <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Register Interest!">
+                </form>
+            </div>
+        </div>
+
+        <aside class="image-container">
+            <img src="AdoptMe.jpeg" alt="Help Animals Find Safety and Love" class="pic">
+        </aside>
+    </div>
+
+</body>
+
 </html>
