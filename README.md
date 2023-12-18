@@ -24,9 +24,9 @@
     ```
     git clone git@github.com:INST377-UMD/inst377-group-project-emilybaelis.git
    
-   
 3. Open the project directory with the following command:
-    ``` cd INST377-UMD/inst377-group-project-emilybaelis
+    ```
+    cd INST377-UMD/inst377-group-project-emilybaelis
    
 5. Make sure Node.js is installed on your device. If not please click this link, https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/, and follow the istructions. 
     Once Node.js is installed, run the following commands to install project dependencies: 
