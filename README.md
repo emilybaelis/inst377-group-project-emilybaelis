@@ -19,10 +19,25 @@
 
 
 ## Developer Manual
-- How to install your application and all dependencies
-- How to run your application on a server
-- We are using the Adopt-a-Pet.com Basic API, and one GET endpoint we are using is /search/pet_search. This endpoint returns a list of pets that match the search. The other GET endpoint we are using is /search/limited_pet_details. This endpoint provides a full list of details about the pet as well as a link to the animal's page on [adoptapet.com](https://www.adoptapet.com/) which can provide the user with more details about the animal.
+### Installation
+1. Clone the repository into your desired directory with the following command: 
+    <code>git clone git@github.com:INST377-UMD/inst377-group-project-emilybaelis.git</code>
+2. Open the project directory with the following command:
+    <code>cd INST377-UMD/inst377-group-project-emilybaelis</code>
+3. Make sure Node.js is installed on your device. If not please click this link, https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/, and follow the istructions. 
+    Once Node.js is installed, run the following commands to install project dependencies: 
+    <code>npm install
+    npm start</code>
+    This will start the server and you should see the message <code>App is running</code> in your terminal indicating the server is running.
+### Running the application
+- The application can be accessed at http://127.0.0.1:5500/index.html through your browser. 
+### API Information
+- We are using the Adopt-a-Pet.com Basic API, and one GET endpoint we are using is /search/pet_search. This endpoint returns a list of pets that match the search. The other GET endpoint we are using from Adopt-a-Pet.com Basic API is /search/limited_pet_details. This endpoint provides a full list of details about the pet as well as a link to the animal's page on [adoptapet.com](https://www.adoptapet.com/) which can provide the user with more details about the animal.
+- We also connected to an external database in supabase with a POST endpoint. This database is called "Customer", and it stores the information filled out by the user in the contact form on the <code>Help and Contact</code> page. 
+### Comments 
 - Not all animals have a photo associated with them. 
+- jQuery was used for some front end styling. 
+- Future development could include expanding the types of animals up for adoption (fish, bunnies, birds, etc.). Also, adding an interactive map to visually show where the animals are up for adoption could be something to add in the future. 
 
 
 ## Resources
