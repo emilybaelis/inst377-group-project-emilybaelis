@@ -8,8 +8,8 @@
 
 ## User Manual
 - On the home page, select either "Dogs" or "Cats", enter the desired zip code, and the desired range (miles) for the area you would like to search.
-    - Click "Search!", and a list of available animals with short descriptions about them will appear on the page. 
-    - If interested in learning more about a specific animal, click anywhere in the animal's outlined box and you will be brought to their page on adoptapet.com. 
+    - Click <code>Search!</code>, and a list of available animals with short descriptions about them will appear on the page. 
+    - If interested in learning more about a specific animal, click anywhere in the animal's outlined box and you will be brought to their page on [adoptapet.com](https://www.adoptapet.com/). 
 - If interested in learning more about our mission, click on the "About Us" tab in the top navigation bar. 
 - If in need of help or looking to get in contact with us, click on the "Help and Contact" tab in the top navigation bar. 
     - A list of FAQ's will be present on the left side of the "Help and Contact" page, and if interested in reading the answers, please click on the questions. 
