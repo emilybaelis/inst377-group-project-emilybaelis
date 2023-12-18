@@ -26,8 +26,7 @@
     <code>cd INST377-UMD/inst377-group-project-emilybaelis</code>
 3. Make sure Node.js is installed on your device. If not please click this link, https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/, and follow the istructions. 
     Once Node.js is installed, run the following commands to install project dependencies: 
-    <code>npm install
-    /n npm start</code>
+    <code>npm install<br>npm start</code>
     This will start the server and you should see the message <code>App is running</code> in your terminal indicating the server is running.
 ### Running the application
 - The application can be accessed at http://127.0.0.1:5500/index.html through your browser. 
