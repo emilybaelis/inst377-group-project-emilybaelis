@@ -21,10 +21,12 @@
 ## Developer Manual
 ### Installation
 1. Clone the repository into your desired directory with the following command: 
-    ``` git clone git@github.com:INST377-UMD/inst377-group-project-emilybaelis.git```
+    ``` git clone git@github.com:INST377-UMD/inst377-group-project-emilybaelis.git
+   ```
    
 3. Open the project directory with the following command:
-    ``` cd INST377-UMD/inst377-group-project-emilybaelis```
+    ``` cd INST377-UMD/inst377-group-project-emilybaelis
+   ```
    
 5. Make sure Node.js is installed on your device. If not please click this link, https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/, and follow the istructions. 
     Once Node.js is installed, run the following commands to install project dependencies: 
@@ -32,7 +34,7 @@
     npm install
     npm start
     
-    This will start the server and you should see the message <code>App is running</code> in your terminal indicating the server is running.
+This will start the server and you should see the message <code>App is running</code> in your terminal indicating the server is running.
 ### Running the application
 - The application can be accessed at http://127.0.0.1:5500/index.html through your browser. 
 ### API Information
