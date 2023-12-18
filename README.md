@@ -30,8 +30,8 @@
     Once Node.js is installed, run the following commands to install project dependencies: 
     ``` 
     npm install
-    npm start```
-
+    npm start
+    
     This will start the server and you should see the message <code>App is running</code> in your terminal indicating the server is running.
 ### Running the application
 - The application can be accessed at http://127.0.0.1:5500/index.html through your browser. 
