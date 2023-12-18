@@ -1,0 +1,65 @@
+h1 {
+    text-align: center;
+}
+.about-us-2{
+    height: 150px;
+    width: 100%;
+    padding: 10px 0;
+}
+#about{
+    width: 850px;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 10px 0;
+}
+.pic{
+    height: 250px;
+    width:  250px;
+    border-radius: 50%;
+}
+#why-adopt {
+    width: 850px;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 10px 0;
+}
+#our-team {
+    width: 850px;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 5px 0;
+}
+.text{
+    width: 540px;
+}
+.text h2{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+/*drop animation*/
+.drop {
+    animation: dropIn 1s ease forwards;
+    animation-delay: calc(var(--order) * 100ms); opacity: 0;
+}
+@keyframes dropIn {
+    from {transform: translateY(-400px); opacity: 0;}
+    to {transform: translateY(0); opacity: 1;}
+}
