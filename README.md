@@ -7,15 +7,15 @@
 - [Go to Developer Manual](#developer-manual)
 
 ## User Manual
-- On the home page, select either "Dogs" or "Cats", enter the desired zip code, and the desired range (miles) for the area you would like to search.
+- On the home page, select either <code>Dogs</code> or <code>Cats</code>, enter the desired zip code, and the desired range (miles) for the area you would like to search.
     - Click <code>Search!</code>, and a list of available animals with short descriptions about them will appear on the page. 
     - If interested in learning more about a specific animal, click anywhere in the animal's outlined box and you will be brought to their page on [adoptapet.com](https://www.adoptapet.com/). 
-- If interested in learning more about our mission, click on the "About Us" tab in the top navigation bar. 
-- If in need of help or looking to get in contact with us, click on the "Help and Contact" tab in the top navigation bar. 
-    - A list of FAQ's will be present on the left side of the "Help and Contact" page, and if interested in reading the answers, please click on the questions. 
-    - If you would like to contact us, please click on "Contact us now to get started!" in the middle of the page. 
+- If interested in learning more about our mission, click on the <code>About Us</code> tab in the top navigation bar. 
+- If in need of help or looking to get in contact with us, click on the <code>Help and Contact</code> tab in the top navigation bar. 
+    - A list of FAQ's will be present on the left side of the <code>Help and Contact</code> page, and if interested in reading the answers, please click on the questions. 
+    - If you would like to contact us, please click on <code>Contact us now to get started!</code> in the middle of the page. 
         - A form will appear, fill out all the required elements of the form for us to receive your message.
-- To navigate back to home you may either click the "Home" tab on the top right side of the navigation bar, or click the logo, or "Adopt-A-Pet MD" on the left side of the navigation bar. 
+- To navigate back to home you may either click the <code>Home</code> tab on the top right side of the navigation bar, or click the logo, or <code>Adopt-A-Pet MD</code> on the left side of the navigation bar. 
 
 
 ## Developer Manual
