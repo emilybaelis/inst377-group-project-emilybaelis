@@ -10,6 +10,8 @@ h2 {
 .layout-container {
     display: flex;
     justify-content: space-between;
+    animation: dropIn 1s ease forwards;
+    animation-delay: calc(var(--order) * 100ms); opacity: 0;
 }
 
 .faq {
@@ -31,6 +33,8 @@ h2 {
 .contact-form form {
     display: flex;
     flex-direction: column;
+    animation: dropIn 1s ease forwards;
+    animation-delay: calc(var(--order) * 100ms); opacity: 0;
 }
 
 .contact-form input,
